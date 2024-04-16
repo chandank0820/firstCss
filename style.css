@@ -49,7 +49,7 @@ img{
     border-top: 1px solid lightgray;
 } */
 
-.plan-card{
+/* .plan-card{
     width:250px;
     border: 1px solid lightgray;
     border-radius: 10px;
@@ -81,7 +81,63 @@ p{
     line-height: 15px;
 }
 .fa-lock {
-    /* Your custom styles here */
-    color: #000; /* Example color */
-    font-size: 12px; /* Example font size */
+    font-size: 12px;
+  } */
+  .form{
+    width: 220px;
+    color: black;
+    text-align: center;
+    margin:50px auto;
   }
+  input{
+    border:none;
+  }
+  input::placeholder{
+    color:gray;
+  }
+  button{
+    background-color: black;
+    color:white;
+    border-radius: 40px;
+    padding: 10px 40px;
+
+  }
+  .email{
+    width:100%;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+  }
+  .pwd{
+    width:220px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    
+  }
+  .show{
+    font-size: 10px;
+    padding-right: 5px;
+    box-sizing: border-box;
+    color: lightgrey;
+ 
+  }
+  .password{
+    box-sizing: border-box;
+    padding: 6px 13px;
+
+  }
+  .sign-up{
+    line-height: 5px;
+    margin: 40px 0;
+  }
+  .underline{
+    text-decoration: underline;
+  }
+  .policy{
+    color:gray;
+  }
+
