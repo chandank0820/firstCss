@@ -24,7 +24,7 @@
 .heading{
     font-family: sans-serif;
 } */
-.profile-card{
+/* .profile-card{
     width:350px;
     border: 1px solid lightgray;
     border-radius: 6px;
@@ -47,4 +47,41 @@ img{
     font-size: 10px;
     padding:10px 20px;
     border-top: 1px solid lightgray;
+} */
+
+.plan-card{
+    width:250px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin:50px auto;
+
 }
+img{
+    width:100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.padding-content{
+    padding:10px 10px;
+}
+button{
+    border:none;
+    background-color: white;
+    border:1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: blue;
+}
+span{
+    margin-left: 10px;
+    font-size: 10px;
+}
+p{
+    font-size: 12px;
+    line-height: 15px;
+}
+.fa-lock {
+    /* Your custom styles here */
+    color: #000; /* Example color */
+    font-size: 12px; /* Example font size */
+  }
